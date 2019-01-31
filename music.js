@@ -342,7 +342,7 @@ client.on('message', message => {
         .addField('queue', 'اظهار قائمة التشغيل')
         .addField('np', 'اظهار الاغنية اللي انت مشغلها حاليا')
         .setFooter('(1general_commands) لاظهار الاوامر العامة')
-				.stColor("#ff0000")
+				.setColor("#ff0000")
       message.channel.send(helpEmbed);
     }
 });
